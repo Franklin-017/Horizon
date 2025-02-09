@@ -82,14 +82,14 @@ function FavoriteCityTablet({
                             className="h-8 w-8"
                         />
                         <div>
-                            <p className="font-medium">{name}</p>
+                            <p className="md:text-base text-xs font-medium">{name}</p>
                             <p className="text-xs text-muted-foreground">
                                 {weather.sys.country}
                             </p>
                         </div>
                     </div>
                     <div className="ml-auto text-right">
-                        <p className="text-xl font-bold">
+                        <p className="md:text-xl text-lg font-bold">
                             {weather.main.temp}°
                         </p>
                         <p className="text-xs capitalize text-muted-foreground">

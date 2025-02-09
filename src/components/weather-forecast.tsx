@@ -59,10 +59,10 @@ export function WeatherForecast({ data }: WeatherForecastProps) {
               className="grid grid-cols-3 items-center gap-4 rounded-lg border p-4"
             >
               <div>
-                <p className="font-medium">
+                <p className="text-sm md:text-base md:text-base font-medium">
                   {format(new Date(day.date * 1000), "EEE, MMM d")}
                 </p>
-                <p className="text-sm text-muted-foreground capitalize">
+                <p className="text-xs md:text-sm text-muted-foreground capitalize">
                   {day.weather.description}
                 </p>
               </div>
